@@ -70,10 +70,11 @@
   height: 128px;
   width: 905px;
   border-radius: 15px;
-
+  margin-top: -40px;
+  margin-left: 30px;
   background-color: #fff;
-  box-shadow: 50px 50px 50px 0 rgba(0, 0, 0, 0.2);
 }
+
 .name {
   height: 14px;
   width: 43px;
@@ -93,6 +94,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  padding-top: 25px;
 }
 .Form input,
 select {
@@ -100,6 +102,11 @@ select {
   margin: 5px 10px;
   border-radius: 5px;
   border: 1px solid rgba(119, 119, 119, 0.5);
+  background-color: rgba(54, 58, 62, 0.08);
+}
+input,
+label {
+  display: block;
 }
 .Form button {
   height: 40px;
@@ -108,16 +115,24 @@ select {
   background-color: #ff4f54;
 }
 .Converter h3 {
-  background-color: #ccc;
-  border-radius: 10px;
-  padding: 15px;
-  font-size: 30px;
+  height: 23px;
+  width: 69px;
+  color: #363a3e;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 23px;
 }
-.Converter h2 span {
-  color: rgb(11, 170, 59);
-}
+
 .background-upper-half {
   height: 400px;
   width: 1280px;
   background-color: #363a3e;
+}
+.div {
+  float: left;
+  margin-right: 20px;
+}
+input,
+label {
+  display: block;
 }
