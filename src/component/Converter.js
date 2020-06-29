@@ -90,6 +90,7 @@ class Converter extends React.Component {
             </div>
             <div className="div">
               <label className="name">To</label>
+              <img src="Switcher.png" />
               <select
                 name="to"
                 onChange={(event) => this.selectHandler(event)}
