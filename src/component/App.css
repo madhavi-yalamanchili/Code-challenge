@@ -113,6 +113,11 @@ label {
   width: 117px;
   border-radius: 8px;
   background-color: #ff4f54;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
 }
 .Converter h3 {
   height: 23px;

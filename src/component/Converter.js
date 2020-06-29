@@ -6,9 +6,9 @@ class Converter extends React.Component {
     super(props);
     this.state = {
       result: null,
-      fromCurrency: "USD",
-      toCurrency: "GBP",
-      amount: 1,
+      fromCurrency: "EUR",
+      toCurrency: "USD",
+      amount: 1.0,
       currencies: [],
     };
   }
